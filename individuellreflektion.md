@@ -7,43 +7,59 @@ Svara på var och en av frågorna nedan individuellt (minst 80 tecken per fråga
 ### Inledning
 
 #### Vad var ditt mål med projektet initialt?
-(insert answer here...)
+Att vara med och arbeta i ett team med ett gemensamt mål. Att gå från en figma-skiss till en färdig produkt och 
+lära sig att använda kod på ett så bra sätt som möjligt.Både strukturmässigt och funktionsmässigt.
 
 #### Hur upplevde inför arbetet att arbeta i team?
-(insert answer here...)
+Man fick en stor inlick hur arbetslivet kommer att te sig i framtiden. Vi tappade tyvärr en i vårt team och insåg då hur
+beronde man är av varandra i ett större projekt och att våra möten ett produktivt samarbete. 
 
 ### Planering och genomförande
 
 #### Hur tycker du att planeringen inför projektet fungerade?
-(insert answer here...)
+Nu i efterhand skulle man för egen del ha gjort ett flödeschema innan den första sprint plannen.
 
 #### Vad har du bidragit med i planeringen, samt utvecklandet av applikationen.
-(insert answer here...)
+Jag var med på sprint plannen tillsammans med teamet och kom med förslag och funderingar.
+
 
 #### Beskriv med dina egna ord, er applikation
-(insert answer here...)
+applikationen börjar med en landningssida där en hamburger-meny finns i det vänstra övre hörnet.
+En lyssnare triggas när besökaren trycker på hamburgermenyn och det rullas ned en meny med 100vh och 100% width.
+det går nu att göra 4 val. Väljer du meny kommer du till en meny med olika kaffesorter. 
+Meny renderas ut från funktionen renderShoppingCart och med hjälp aven foreach som itererar över localstorage 'cart' innehåll. Elementen skapas sedan i javascript och en lysnnare på plusknappen som leder till en funktion som ändrar antalet beställninar på kaffesorten. I det högra hörnet kan du nu även se hur många beställninar som har gjorts och när du trycker på iconen renderas en meny från functionen rendershoppingModal(). I detta fönster kan du välja om du vill öka antalet beställningar eller minska beställningen med hjälp av lysnnare på upp och ned pilarna samt att detta justeras i localstorage. trycker man sedan på take my money knappen kommer du till en status sida där ett slumpat tal mellan 15-20 minuter. Ett unikt ordernummer skapas i functionen generateUniqueOrderNumber()
+
+En about sida med "Vårt Kaffe" kan väljas vilket leder till en enkel html.sida med html och css kod.
+Du kan välja på om du redan har registrerat dig att logga in med din email adress och lösenord. Lösenordet och emailadressen kontrolleras 
+i localstorage och kollar om emailadressen finns och username i user.js . Checkboxen GDPR Ok måste vara itryckt för att vi ska komma vidare.
+När man blivit inloggad renderas en annan meny som bara visas för den inloggade användaren. Är du admin visas en annan meny som renderas från render.js
 
 ### Teamets utmaningar och lösningar
 
 #### Vika var de största utmaningarna för dig?
-(insert answer here...)
+github har varit den största utmnaningen och javascript. 
 
 #### Hur löste eller hanterade du dessa utmaningar?
-(insert answer here...)
-
+Jag tog hjälp av teamet och då i synnerhet kim som var vårat "ankare". Vi gick lugnt och metodiskt igenom
+problemen som uppstod och hanterade dessa med bravur.
 #### Vilka kompromisser inom teamet har du fått göra under projektets gång?
-(insert answer here...)
+
 
 ### Individuell reflektion och utvärdering
 
 #### Vad lärde du dig under projektets gång?
-(insert answer here...)
+jag lärde mig hur man arbetar i team och att ta hjälp tidigare , istället för att försöka att 
+lösa uppgiften själv om man har fastnat.
 
 #### Finns det någonting du skulle velat göra annorlunda om du fick chansen igen?
-(insert answer here...)
+jag skulle ha avsatt tid för att göra ett grundligt och genomtänkt flödesschema för att 
+kunna förstå vilka funktioner som behövs och var funktionerna skall vara placerade.
+Jag skulle ha börjat med en lättare uppgift först och inte gått på en av de svårare i början.
 
 #### Vilka möjligheter ser du med de kunskaper du fått under arbetet med projektet?
-(insert answer here...)
+Jag tyckte det var ett bra projekt eftersom det var väldigt verklighetsförankrat samt att 
+arbeta med varukorg system av olika typer kommer att ingå i det framtida arbetet.
+antingen som konsult eller ingå i ett större företag kommer dessa kunskaper vara till stor nytta.
 
 
 
